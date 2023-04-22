@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@500&display=swap');
+
+.main-container{
+    background-color: rgb(165, 221, 221);
+}
+
+.main-container > h1{
+    text-align: center;
+    position: relative;
+    font-size: 48px;
+    border-radius: 32px;
+    top: 12px;
+    margin: auto;
+    margin-bottom: 16px;
+    background-color: white;
+    padding: 7px 0px;
+    width: 27%;
+    border: 2px solid black;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98vw;
+}
+
+
+@media only screen and (max-width: 925px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .main-container > h1{
+        width: 60%;
+    }
+  }

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 16px 16px;
+    border-radius: 20px;
+    width: 44%;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    transition: 0.3s;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.btn{
+    padding: 3px 9px;
+    font-family: 'Ubuntu', sans-serif;
+    background: antiquewhite;
+    margin: 7px 0px;
+    font-weight: 800;
+    border: 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-container:hover{
+    width: 48%;
+    background-color: rgb(244, 216, 240);
+}
+
+.body{
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.body > h3{
+    margin: 6px 10px;
+    font-size: 21px;
+    color: #503e7f;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+}
+
+.body > p{
+    margin: 0px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    border: 2px solid;
+    background-color: antiquewhite;
+    margin: 9px;
+    padding: 2px 9px;
+    border-radius: 10px;
+}
+
+.options > p {
+    margin: 6px 0px;
+}
+
+.tag{
+    margin: 0px 8px;
+}
+
+.DialogBox{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.DialogBox > h4{
+    margin: 0px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 13px;
+    display: -webkit-box;
+}
+
+.DialogBox > h2{
+    margin: 6px 10px;
+    font-size: 21px;
+    color: #503e7f;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+}
+
+.DialogBox > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    border: 2px solid;
+    background-color: antiquewhite;
+    margin: 9px;
+    padding: 2px 9px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 925px) {
+    .card-container{
+        width: 90%;
+    }
+    .card-container:hover{
+        width: 90%;
+        background-color: rgb(244, 216, 240);
+    }
+
+    .DialogBox{
+       font-size: 13px;
+    }
+  }
