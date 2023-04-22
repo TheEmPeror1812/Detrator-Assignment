@@ -129,7 +129,19 @@
         background-color: rgb(244, 216, 240);
     }
 
-    .DialogBox{
-       font-size: 13px;
+    .DialogBox > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .options > div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
   }
