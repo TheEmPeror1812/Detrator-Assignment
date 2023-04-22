@@ -41,7 +41,7 @@ function Card({ id, usedId, title, body, tags, reactions }) {
         </Dialog>
       </div>
       <button className="btn" onClick={() => SetStoryToggle(!storyToggle)}>
-        Read Full Story...
+        Read Full..
       </button>
     </div>
   );
